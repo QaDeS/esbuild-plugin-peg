@@ -1,0 +1,20 @@
+{
+  "name": "@peg-loader/test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "type": "module",
+  "scripts": {
+    "test": "pnpm install && node build.js && node test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "peg-loader": "link:.."
+  },
+  "private": "true",
+  "devDependencies": {
+    "bun-types": "^0.8.1"
+  }
+}

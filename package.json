@@ -1,0 +1,34 @@
+{
+  "name": "peg-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/peg-loader.js",
+  "type": "module",
+  "exports": {
+    ".": "./dist/esbuild.js",
+    "./esbuild": "./dist/esbuild.js",
+    "./bun": "./dist/bun.js"
+  },
+  "module": "dist/peg-loader.mjs",
+  "types": "dist/peg-loader.d.ts",
+  "files": [
+    "peg-loader.js"
+  ],
+  "scripts": {
+    "build": "bun ./build.ts",
+    "test": "bun run build && cd test && bun run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bun": "^0.8.1",
+    "bun-plugin-dts": "^0.1.0",
+    "bun-types": "^0.8.1",
+    "esbuild": "^0.19.2",
+    "esbuild-plugin-d.ts": "^1.1.0"
+  },
+  "dependencies": {
+    "peggy": "^3.0.2"
+  }
+}

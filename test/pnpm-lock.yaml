@@ -1,0 +1,21 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  peg-loader:
+    specifier: link:..
+    version: link:..
+
+devDependencies:
+  bun-types:
+    specifier: ^0.8.1
+    version: 0.8.1
+
+packages:
+
+  /bun-types@0.8.1:
+    resolution: {integrity: sha512-VuCBox66P/3a8gVOffLCWIS6vdpXq4y3eJuF3VnsyC5HpykmIjkcr5wYDn22qQdeTUmOfCcBy1SZmtrZCeUr3A==}
+    dev: true
