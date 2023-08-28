@@ -1,5 +1,5 @@
 {
-  "name": "peg-loader",
+  "name": "esbuild-plugin-peg",
   "version": "0.0.1",
   "description": "",
   "main": "dist/peg-loader.js",

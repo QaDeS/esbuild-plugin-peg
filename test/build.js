@@ -1,5 +1,5 @@
 import * as esbuild from 'esbuild'
-import peg from 'peg-loader'
+import peg from 'esbuild-plugin-peg'
 
 await esbuild.build({
   entryPoints: ['import.test.ts'],

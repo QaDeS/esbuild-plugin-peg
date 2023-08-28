@@ -1,4 +1,4 @@
 import { plugin } from 'bun'
-import peg from 'peg-loader/bun'
+import peg from 'esbuild-plugin-peg/bun'
 
 await plugin(peg())

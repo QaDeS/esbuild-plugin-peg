@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  peg-loader:
+  esbuild-plugin-peg:
     specifier: link:..
     version: link:..
 
