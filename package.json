@@ -1,6 +1,6 @@
 {
   "name": "peg-loader",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/peg-loader.js",
   "type": "module",
@@ -12,7 +12,7 @@
   "module": "dist/peg-loader.mjs",
   "types": "dist/peg-loader.d.ts",
   "files": [
-    "peg-loader.js"
+    "dist"
   ],
   "scripts": {
     "build": "bun ./build.ts",

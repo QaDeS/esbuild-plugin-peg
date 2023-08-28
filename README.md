@@ -1,7 +1,5 @@
 # peg-loader
 
-[![peg-loader](https://github.com/qades/peg-loader/actions/workflows/master.yml/badge.svg?branch=master)](https://github.com/qades/peg-loader/actions/workflows/master.yml)
-
 > This plugin lets you import [PEGjs](https://pegjs.org/) and [Peggy](https://peggyjs.org/) files when bundling with [Esbuild](https://esbuild.github.io/)
 
 ## Installation
